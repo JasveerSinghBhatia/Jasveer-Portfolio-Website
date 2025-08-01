@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jasveer's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Jasveer Singh Bhatia</div>
+      <div class="logo"><strong>Jasveer Singh Bhatia</strong></div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -43,12 +44,9 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Jasveer Singh Bhatia</h1>
-        <p class="section__text__p2">An Aspiring software Developer</p>
+
         <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/images/jresume.pdf')"
-          >
+          <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1GBXvRc2mIhRIbXzaatJRraHpWRSosfka/view?usp=sharing', '_blank')">
             Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -204,7 +202,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Git/h3>
+                  <h3>Git</h3>
                 </div>
               </article>
               <article>
@@ -246,29 +244,57 @@
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <div class="article-container-img">
-              <img
-                src="./assets/images/project1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-              </div>
-            </div>
-            <h2 class="experience-sub-title project-title">Blood Bank App</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/JasveerSinghBhatia/Blood-Bank-App'"
-              >
-                Github
-              </button>
-              
-            </div>
-          </div>
+  <div class="about-containers">
+
+    <!-- Blood Bank App Project -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <div class="article-container-img">
+          <img
+            src="./assets/images/BloodBankApp.png"
+            alt="Blood Bank App"
+            class="project-img"
+          />
+        </div>
+      </div>
+      <h2 class="experience-sub-title project-title">Blood Bank App</h2>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/JasveerSinghBhatia/Blood-Bank-App'"
+        >
+          Github
+        </button>
+      </div>
+    </div>
+
+    <!-- Restaurant App Project -->
+    <div class="details-container color-container">
+      <div class="article-container">
+        <div class="article-container-img">
+          <img
+            src="./assets/images/RestaurantApp.png"
+            alt="Restaurant App"
+            class="project-img"
+          />
+        </div>
+      </div>
+      <h2 class="experience-sub-title project-title">Restaurant App</h2>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/JasveerSinghBhatia/Restaurant-App'"
+        >
+          Github
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
           
+              
       <img
         src="./assets/images/arrow.png"
         alt="Arrow icon"

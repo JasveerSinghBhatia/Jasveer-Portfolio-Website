@@ -181,8 +181,10 @@ section {
   text-align: center;
 }
 
+
 .section__text p {
   font-weight: 600;
+  font-size: 30px;
 }
 
 .section__text__p1 {
