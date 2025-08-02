@@ -38,49 +38,34 @@
       </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/images/Jasveer.png" alt="Jasveer profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Jasveer Singh Bhatia</h1>
+  <div class="section__pic-container">
+    <img src="./assets/images/Jasveer.png" alt="Jasveer profile picture" />
+  </div>
 
-        <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1GBXvRc2mIhRIbXzaatJRraHpWRSosfka/view?usp=sharing', '_blank')">
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/images/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/jasveer-singh-bhatia/'"
-          />
-          <img
-            src="./assets/images/leetcode.svg"
-            alt="My Leetcode profile"
-            class="icon"
-            onclick="location.href='https://leetcode.com/u/Jasveer_Singh_Bhatia19/'"
-          />
-          <img
-            src="./assets/images/instagram.png"
-            alt="My Instagram profile"
-            class="icon"
-            onclick="location.href='https://www.instagram.com/jasveer_singh_bhatia_/'"
-          />
-          <img
-            src="./assets/images/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/JasveerSinghBhatia'"
-          />
-        </div>
-      </div>
-    </section>
+  <div class="section__text">
+    <p class="section__text__p1">Hello, I'm</p>
+    <h1 class="title">Jasveer Singh Bhatia</h1>
+    
+    <!-- Buttons -->
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1GBXvRc2mIhRIbXzaatJRraHpWRSosfka/view?usp=sharing', '_blank')">
+        Download CV
+      </button>
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Contact Info
+      </button>
+    </div>
+
+    <!-- Social Icons -->
+    <div id="socials-container">
+      <img src="./assets/images/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/jasveer-singh-bhatia/'" />
+      <img src="./assets/images/leetcode.svg" alt="Leetcode" class="icon" onclick="location.href='https://leetcode.com/u/Jasveer_Singh_Bhatia19/'" />
+      <img src="./assets/images/instagram.png" alt="Instagram" class="icon" onclick="location.href='https://www.instagram.com/jasveer_singh_bhatia_/'" />
+      <img src="./assets/images/github.png" alt="GitHub" class="icon" onclick="location.href='https://github.com/JasveerSinghBhatia'" />
+    </div>
+  </div>
+</section>
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -115,7 +100,12 @@
           </div>
           <div class="text-container">
             <p>
-              I'm Jasveer, a 3rd-year Electrical and Computer Engineering student at Thapar University. I design, build, and deploy full-stack web apps using the MERN stack (MongoDB, Express.js, React, Node.js). I craft clean UIs, architect efficient backends, and integrate secure authentication systems. Passionate about problem-solving, I consistently solve, optimize, and analyze coding challenges on LeetCode to sharpen my DSA skills. I translate complex ideas into seamless user experiences and deliver scalable, high-performance solutions. With every line of code, I strive to innovate, learn, and level up as a developer.
+              I'm Jasveer, a 3rd-year Electrical and Computer Engineering student at Thapar University. 
+              I design, build, and deploy full-stack web apps using the MERN stack (MongoDB, Express.js, React, Node.js). 
+              I craft clean UIs, architect efficient backends, and integrate secure authentication systems. Passionate about problem-solving, 
+              I consistently solve, optimize, and analyze coding challenges on LeetCode to sharpen my DSA skills. 
+              I translate complex ideas into seamless user experiences and deliver scalable, high-performance solutions. With every line of code, 
+              I strive to innovate, learn, and level up as a developer.
             </p>
           </div>
         </div>
@@ -240,60 +230,33 @@
         onclick="location.href='./#projects'"
       />
     </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-  <div class="about-containers">
+    <section id="projects" class="projects-wrapper">
+  <p class="projects-subtitle">Browse My Recent</p>
+  <h1 class="projects-title">Projects</h1>
 
-    <!-- Blood Bank App Project -->
-    <div class="details-container color-container">
-      <div class="article-container">
-        <div class="article-container-img">
-          <img
-            src="./assets/images/BloodBankApp.png"
-            alt="Blood Bank App"
-            class="project-img"
-          />
-        </div>
+  <div class="projects-border-box">
+    <h2 class="projects-heading">My Work</h2>
+    <div class="projects-box-container">
+
+      <!-- Project 1 -->
+      <div class="project-box">
+        <img src="./assets/images/BloodBankApp.png" alt="Blood Bank App" class="project-icon" />
+        <h3 class="project-name">Blood Bank App</h3>
+        <a href="https://github.com/JasveerSinghBhatia/Blood-Bank-App" target="_blank" class="project-link">GitHub</a>
       </div>
-      <h2 class="experience-sub-title project-title">Blood Bank App</h2>
-      <div class="btn-container">
-        <button
-          class="btn btn-color-2 project-btn"
-          onclick="location.href='https://github.com/JasveerSinghBhatia/Blood-Bank-App'"
-        >
-          Github
-        </button>
+
+      <!-- Project 2 -->
+      <div class="project-box">
+        <img src="./assets/images/RestaurantApp.png" alt="Restaurant App" class="project-icon" />
+        <h3 class="project-name">Restaurant App</h3>
+        <a href="https://github.com/JasveerSinghBhatia/Restaurant-App" target="_blank" class="project-link">GitHub</a>
       </div>
+
     </div>
-
-    <!-- Restaurant App Project -->
-    <div class="details-container color-container">
-      <div class="article-container">
-        <div class="article-container-img">
-          <img
-            src="./assets/images/RestaurantApp.png"
-            alt="Restaurant App"
-            class="project-img"
-          />
-        </div>
-      </div>
-      <h2 class="experience-sub-title project-title">Restaurant App</h2>
-      <div class="btn-container">
-        <button
-          class="btn btn-color-2 project-btn"
-          onclick="location.href='https://github.com/JasveerSinghBhatia/Restaurant-App'"
-        >
-          Github
-        </button>
-      </div>
-    </div>
-
   </div>
-</div>
+</section>
 
-          
+
               
       <img
         src="./assets/images/arrow.png"
